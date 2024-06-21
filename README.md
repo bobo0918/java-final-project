@@ -1,5 +1,5 @@
-//# java-final-project
-//java 언어를 이용하여 window 그림판 만들기
+# java-final-project
+java 언어를 이용하여 window 그림판 만들기
 package project;
 import javax.swing.*;
 import java.awt.*;
