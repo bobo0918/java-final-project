@@ -1,21 +1,21 @@
-//# java-final-project
-//java 언어를 이용하여 window 그림판 만들기
-package project;<br>
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-import javax.imageio.ImageIO;
-import java.io.IOException;
+<br>//# java-final-project<br>
+<br>//java 언어를 이용하여 window 그림판 만들기<br>
+<br>package project;<br>
+<br>import javax.swing.*;<br>
+<br>import java.awt.*;<br>
+<br>import java.awt.event.*;<br>
+<br>import java.awt.image.BufferedImage;<br>
+<br>import java.io.File;<br>
+<br>import javax.imageio.ImageIO;<br>
+<br>import java.io.IOException;<br>
 
-public class SimplePaint extends JFrame {
-    private BufferedImage canvas;
-    private Graphics2D g2d;
-    private int startX, startY, endX, endY;
-    private String currentTool = "Pencil";
-    private Color currentColor = Color.BLACK;
-    private boolean eraserEnabled = false;
+<br>public class SimplePaint extends JFrame {<br>
+    <br>private BufferedImage canvas;<br>
+    <br>private Graphics2D g2d;<br>
+    <br>private int startX, startY, endX, endY;<br>
+    <br>private String currentTool = "Pencil";<br>
+    <br>private Color currentColor = Color.BLACK;<br>
+    <br>private boolean eraserEnabled = false;<br>
 
     public SimplePaint() {
         setTitle("Simple Paint");
